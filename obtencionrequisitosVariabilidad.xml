@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uma:MethodLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uma="http://www.eclipse.org/epf/uma/1.0.6" name="modelodeproceso" briefDescription="" id="_y6DHoJlMEe6KhqlTYqW0uw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" tool="epf=1.5.0">
+  <MethodElementProperty name="library_synFree" value="true"/>
+  <MethodPlugin name="Requerimientos" briefDescription="" id="_2M5_gJlMEe6KhqlTYqW0uw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" supporting="false" userChangeable="true">
+    <MethodElementProperty name="plugin_synFree" value="true"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_ZJrocJluEe6KhqlTYqW0uw"/>
+    <MethodPackage xsi:type="uma:ContentPackage" name="modelo" briefDescription="" id="_4V99wJlMEe6KhqlTYqW0uw" orderingGuide="" presentationName="Modelo" suppressed="false" global="false">
+      <MethodElementProperty name="pkg_loadCheck" value="true"/>
+      <MethodElementProperty name="me_edited" value="true"/>
+      <ContentElement xsi:type="uma:Role" name="analista" briefDescription="" id="__2uZcJlMEe6KhqlTYqW0uw" orderingGuide="" presentationName="Analista" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <ResponsibleFor>_yE4_QJliEe6KhqlTYqW0uw</ResponsibleFor>
+        <ResponsibleFor>_0qqusJliEe6KhqlTYqW0uw</ResponsibleFor>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="identificar_stakeholders" briefDescription="" id="_RsKJ8JlNEe6KhqlTYqW0uw" orderingGuide="" presentationName="Identificar Stakeholders" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name=",_RsKJ8JlNEe6KhqlTYqW0uw" briefDescription="" id="-JyzXRtl_6W-pHviMrAhiYw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Section name="Paso1" briefDescription="" id="_DehaAJliEe6KhqlTYqW0uw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Section>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
+        <PerformedBy>__2uZcJlMEe6KhqlTYqW0uw</PerformedBy>
+        <MandatoryInput>_yE4_QJliEe6KhqlTYqW0uw</MandatoryInput>
+        <Output>_0qqusJliEe6KhqlTYqW0uw</Output>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="crear_un_vocabulario_comn" briefDescription="" id="_YE3_gJlNEe6KhqlTYqW0uw" orderingGuide="" presentationName="Crear un vocabulario común" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>__2uZcJlMEe6KhqlTYqW0uw</PerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="centralizar_informacin" briefDescription="" id="_g3-M0JlNEe6KhqlTYqW0uw" orderingGuide="" presentationName="Centralizar información" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>__2uZcJlMEe6KhqlTYqW0uw</PerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="identificar_requisitos_relevantes" briefDescription="" id="_kIBBQJlNEe6KhqlTYqW0uw" orderingGuide="" presentationName="Identificar requisitos relevantes" suppressed="false" isAbstract="false" variabilityBasedOnElement="_GqPRoJluEe6KhqlTYqW0uw" variabilityType="replaces">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>__2uZcJlMEe6KhqlTYqW0uw</PerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="capturar_guiones_y_actores_de_casos_de_uso" briefDescription="" id="_nThT8JlNEe6KhqlTYqW0uw" orderingGuide="" presentationName="Capturar guiones y actores de casos de uso" suppressed="false" isAbstract="false" variabilityBasedOnElement="_ajXNoJltEe6KhqlTYqW0uw" variabilityType="extends">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>__2uZcJlMEe6KhqlTYqW0uw</PerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="desarrollar_especificaciones_complementarias_a_los_requisitos" briefDescription="" id="_rVX_0JlNEe6KhqlTYqW0uw" orderingGuide="" presentationName="Desarrollar especificaciones complementarias a los requisitos" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>__2uZcJlMEe6KhqlTYqW0uw</PerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="actualizar_y_gestionar_los_cambios_de_los_requerimientos" briefDescription="" id="_zVzaEJlNEe6KhqlTYqW0uw" orderingGuide="" presentationName="Actualizar y gestionar los cambios de los requerimientos" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>__2uZcJlMEe6KhqlTYqW0uw</PerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="entrada1" briefDescription="" id="_yE4_QJliEe6KhqlTYqW0uw" orderingGuide="" presentationName="Entrada1" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="salida1" briefDescription="" id="_0qqusJliEe6KhqlTYqW0uw" orderingGuide="" presentationName="salida1" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="tarea_de_variabilidad" briefDescription="" id="_ajXNoJltEe6KhqlTYqW0uw" orderingGuide="" presentationName="Tarea de variabilidad" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>__2uZcJlMEe6KhqlTYqW0uw</PerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="tarea2_de_variabilidad" briefDescription="" id="_GqPRoJluEe6KhqlTYqW0uw" orderingGuide="" presentationName="tarea2 de variabilidad" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+    </MethodPackage>
+    <MethodPackage xsi:type="uma:ProcessComponent" name="Adquisición de requerimientos" briefDescription="" id="_kA9R0JlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+      <MethodElementProperty name="pkg_loadCheck" value="true"/>
+      <MethodElementProperty name="me_edited" value="true"/>
+      <Process xsi:type="uma:DeliveryProcess" name="Adquisición de requerimientos" briefDescription="" id="_kA9R0ZlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Adquisición de requerimientos" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="Requerimientos/deliveryprocesses/Adquisición%20de%20requerimientos/diagram.xmi">
+        <Presentation xsi:type="uma:DeliveryProcessDescription" name="v2,_kA9R0ZlfEe6KhqlTYqW0uw" briefDescription="" id="-OrwNPzSKRkaDE49MOM_bqg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Alternatives></Alternatives>
+          <HowToStaff></HowToStaff>
+          <Purpose></Purpose>
+          <Scope></Scope>
+          <UsageNotes></UsageNotes>
+          <Scale></Scale>
+          <ProjectCharacteristics></ProjectCharacteristics>
+          <RiskLevel></RiskLevel>
+          <EstimatingTechnique></EstimatingTechnique>
+          <ProjectMemberExpertise></ProjectMemberExpertise>
+          <TypeOfContract></TypeOfContract>
+        </Presentation>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="identificar_stakeholders" briefDescription="" id="_lakJEJlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Identificar Stakeholders" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <Task>_RsKJ8JlNEe6KhqlTYqW0uw</Task>
+          <MandatoryInput>_6pe2gZliEe6KhqlTYqW0uw</MandatoryInput>
+          <Output>_6pe2hJliEe6KhqlTYqW0uw</Output>
+          <PerformedPrimarilyBy>_lakJEZlfEe6KhqlTYqW0uw</PerformedPrimarilyBy>
+          <Step name="Paso1" briefDescription="" id="_DehaAJliEe6KhqlTYqW0uw" orderingGuide="" presentationName="" suppressed="false" sectionName="" variabilityType="na">
+            <Description></Description>
+          </Step>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:RoleDescriptor" name="analista" briefDescription="" id="_lakJEZlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Analista" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <Role>__2uZcJlMEe6KhqlTYqW0uw</Role>
+          <ResponsibleFor>_6pe2hJliEe6KhqlTYqW0uw</ResponsibleFor>
+          <ResponsibleFor>_6pe2gZliEe6KhqlTYqW0uw</ResponsibleFor>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="crear_un_vocabulario_comn" briefDescription="" id="_nmOIUJlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Crear un vocabulario común" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <Predecessor id="_gOLuUJlgEe6KhqlTYqW0uw" linkType="finishToStart">_lakJEJlfEe6KhqlTYqW0uw</Predecessor>
+          <Task>_YE3_gJlNEe6KhqlTYqW0uw</Task>
+          <PerformedPrimarilyBy>_lakJEZlfEe6KhqlTYqW0uw</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="centralizar_informacin" briefDescription="" id="_o6DHsJlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Centralizar información" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <Predecessor id="_hHLL0JlgEe6KhqlTYqW0uw" linkType="finishToStart">_nmOIUJlfEe6KhqlTYqW0uw</Predecessor>
+          <Task>_g3-M0JlNEe6KhqlTYqW0uw</Task>
+          <PerformedPrimarilyBy>_lakJEZlfEe6KhqlTYqW0uw</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="identificar_requisitos_relevantes" briefDescription="" id="_rqqOIJlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Identificar requisitos relevantes" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <Task>_kIBBQJlNEe6KhqlTYqW0uw</Task>
+          <PerformedPrimarilyBy>_lakJEZlfEe6KhqlTYqW0uw</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="capturar_guiones_y_actores_de_casos_de_uso" briefDescription="" id="_sk8FEJlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Capturar guiones y actores de casos de uso" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <Task>_nThT8JlNEe6KhqlTYqW0uw</Task>
+          <PerformedPrimarilyBy>_lakJEZlfEe6KhqlTYqW0uw</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="desarrollar_especificaciones_complementarias_a_los_requisitos" briefDescription="" id="_tYAgwJlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Desarrollar especificaciones complementarias a los requisitos" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <Predecessor id="_wSsTwJlgEe6KhqlTYqW0uw" linkType="finishToStart">_rqqOIJlfEe6KhqlTYqW0uw</Predecessor>
+          <Predecessor id="_wSsTwZlgEe6KhqlTYqW0uw" linkType="finishToStart">_sk8FEJlfEe6KhqlTYqW0uw</Predecessor>
+          <Task>_rVX_0JlNEe6KhqlTYqW0uw</Task>
+          <PerformedPrimarilyBy>_lakJEZlfEe6KhqlTYqW0uw</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="actualizar_y_gestionar_los_cambios_de_los_requerimientos" briefDescription="" id="_uIRgEJlfEe6KhqlTYqW0uw" orderingGuide="" presentationName="Actualizar y gestionar los cambios de los requerimientos" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <Predecessor id="_x5husZlgEe6KhqlTYqW0uw" linkType="finishToStart">_tYAgwJlfEe6KhqlTYqW0uw</Predecessor>
+          <Task>_zVzaEJlNEe6KhqlTYqW0uw</Task>
+          <PerformedPrimarilyBy>_lakJEZlfEe6KhqlTYqW0uw</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="entrada1" briefDescription="" id="_6pe2gZliEe6KhqlTYqW0uw" orderingGuide="" presentationName="Entrada1" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <WorkProduct>_yE4_QJliEe6KhqlTYqW0uw</WorkProduct>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="salida1" briefDescription="" id="_6pe2hJliEe6KhqlTYqW0uw" orderingGuide="" presentationName="salida1" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_kA9R0ZlfEe6KhqlTYqW0uw</SuperActivity>
+          <WorkProduct>_0qqusJliEe6KhqlTYqW0uw</WorkProduct>
+        </BreakdownElement>
+      </Process>
+    </MethodPackage>
+  </MethodPlugin>
+</uma:MethodLibrary>
